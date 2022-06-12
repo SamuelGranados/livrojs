@@ -1,0 +1,18 @@
+body {
+    background-color: azure;
+    font: normal 16pt arial;
+}
+
+input{
+    font: normal 16pt arial;
+
+}
+
+input:hover{
+    border: px solid rgb(84, 84, 235);
+}
+
+#btVerPromocao {
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+}

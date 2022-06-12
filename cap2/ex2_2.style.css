@@ -1,0 +1,23 @@
+body {
+    font: normal 16pt arial;
+    background-color: antiquewhite;
+}
+
+input{
+    font: normal 16pt arial;
+    width: 250px;
+    height: 30px;
+    border-color: rgb(0, 255, 255);
+}
+
+#btConverter{
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 12pt;
+    background-color: aqua;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}

@@ -1,0 +1,13 @@
+body{
+    font: normal 16pt arial;
+    background-color: bisque;
+}
+
+input{
+    font: normal 16pt arial;
+}
+
+#btCalcular{
+    margin-left: 50px;
+    border-radius: 10px;
+}
