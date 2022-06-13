@@ -1,0 +1,13 @@
+body{
+    background-color: azure;
+    font: normal 16pt arial;
+}
+
+input{
+    font: normal 16pt arial;
+}
+
+#btMostrar{
+    margin-left: 50px;
+    border-radius: 10px;
+}
