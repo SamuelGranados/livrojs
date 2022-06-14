@@ -40,3 +40,16 @@ function calcularPeso() {
 // cria referencia ao elemento btCalcular e registra evento associado a btCalcular
 var btResultado = document.getElementById("btCalcular")
 btCalcular.addEventListener("click", calcularPeso)
+
+function limparCampos() {
+    // limpa os conteudos dos elementos
+    document.getElementById("inNome").value = ""
+    document.getElementById("rbMasculino").checked = false
+    document.getElementById("rbFeminino").checked = false
+    document.getElementById("inAltura").value = ""
+    document.getElementById("outResposta").textContent = ""
+}
+
+// posiciona (joga o foco) no elemento inNome
+btLimpar = document.getElementById("btLimpar")
+btLimpar.addEventListener("click", limparCampos)
