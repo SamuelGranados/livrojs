@@ -6,9 +6,9 @@ function calcularNotas() {
     var outNotasDez = document.getElementById("outNotasDez")
 
     // limpa mensagem caso segunda execuçao 
-    //outNotasCem.textContent = ""
-    //outNotasCinquenta.textContent = "" 
-    //outNotasDez.textContent = ""
+    //outNotasCem.textContent = " "
+    //outNotasCinquenta.textContent = " " 
+    //outNotasDez.textContent = " "
 
     var saque = Number(inSaque.value) // converte conteudo do campo inSaque
 
@@ -30,7 +30,7 @@ function calcularNotas() {
     var notasCem = Math.floor(saque / 100)
     var resto = saque % 100
     var notasCinquenta = Math.floor(resto / 50)
-    var resto = resto % 50
+        resto = resto % 50
     var notasDez = Math.floor(resto / 10)
     
     // exibe as notas apenas se houver 
@@ -47,3 +47,5 @@ function calcularNotas() {
 // cria referencia ao elemento exibir e associa dunction ao evento click
 var btExibir = document.getElementById("btExibir")
 btExibir.addEventListener("click", calcularNotas)
+
+// nao finalizado
